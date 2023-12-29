@@ -1,25 +1,28 @@
 #gameboard {
-    width: 320px;
-    height: 320px;
+    margin: auto;
+    width: 825px;
+    height: 825px;
     display: flex; 
     flex-wrap: wrap;
 }
 
 .square {
-    height: 40px;
-    width: 40px;
+    margin: auto;
+    height: 103.125px;
+    width: 103.125px;
     position: relative;
 }
 
 .square svg {
-    height: 30px;
-    width: 30px;
-    margin: 5px;
+    height: 77px;
+    width: 77px;
+    margin: 15px;
     position: relative;
     z-index: -9;
 }
 
 path {
+    margin: auto;
     position: relative;
     z-index: -10;
 }
@@ -43,4 +46,17 @@ path {
 
 .white{
     fill: rgb(235, 235, 230)
+}
+
+body {
+    background-color: rgb(68, 68, 68);
+}
+
+button {
+    width: 825px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    
 }
